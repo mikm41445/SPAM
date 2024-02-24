@@ -18,15 +18,15 @@ OPENCLOSE.TextScaled = true
 OPENCLOSE.TextSize = 14.000
 OPENCLOSE.TextWrapped = true
 OPENCLOSE.MouseButton1Click:Connect(function()
-    game.CoreGui:FindFirstChild("1xliiUI").Enabled = not game.CoreGui:FindFirstChild("1xliiUI").Enabled
+    game.CoreGui:FindFirstChild("Reflux").Enabled = not game.CoreGui:FindFirstChild("1xliiUI").Enabled
 end)
 do
-    if game:GetService("CoreGui"):FindFirstChild("1xliiui") then
+    if game:GetService("CoreGui"):FindFirstChild("Reflux") then
         game:GetService("CoreGui").DinoUI:Destroy()
     end
 end
 
-do local GUI = game.CoreGui:FindFirstChild("1xliiui");if GUI then GUI:Destroy();end;if _G.Color == nil then
+do local GUI = game.CoreGui:FindFirstChild("Reflux");if GUI then GUI:Destroy();end;if _G.Color == nil then
        _G.Color = Color3.fromRGB(96, 255, 16)
    end 
 end
@@ -1062,7 +1062,7 @@ elseif placeId == 7449423635 then
 	Three_World = true
 end
 
-local Library = Update:Window("sazx hub ","",Enum.KeyCode.RightControl);
+local Library = Update:Window("NICECOSA SHOP ","",Enum.KeyCode.RightControl);
 local AutoFarm = Library:Tab("AutoFarm")
 local Auto = Library:Tab("Auto")
 local Stats = Library:Tab("Stats")
