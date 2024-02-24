@@ -15,7 +15,7 @@ SOMEXHUBMODILE.Name = "SOMEXHUBMODILE"
         MODILEGUISOMEXHUB.Size = UDim2.new(0, 50, 0, 50)
         MODILEGUISOMEXHUB.Font = Enum.Font.SourceSans
         MODILEGUISOMEXHUB.Text = "C"
-        MODILEGUISOMEXHUB.TextColor3 = Color3.fromRGB(50,0,0)
+        MODILEGUISOMEXHUB.TextColor3 = Color3.fromRGB(255,0,0)
         MODILEGUISOMEXHUB.TextSize = 20.000
         MODILEGUISOMEXHUB.Draggable = true
         MODILEGUISOMEXHUB.MouseButton1Click:Connect(function()
@@ -35,7 +35,7 @@ SOMEXHUBMODILE.Name = "SOMEXHUBMODILE"
         MODILEMAGE.BackgroundTransparency = 1.000
         MODILEMAGE.BorderSizePixel = 0
         MODILEMAGE.Position = UDim2.new(0.234619886, 0, 0.239034846, 0)
-        MODILEMAGE.Size = UDim2.new(0, 25, 0, 25)
+        MODILEMAGE.Size = UDim2.new(0, 300, 1, 0)
         MODILEMAGE.Image = "http://www.roblox.com/asset/?id=16500739558"
 print("Hi")
 
